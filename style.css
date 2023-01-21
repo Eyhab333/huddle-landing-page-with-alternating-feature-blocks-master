@@ -149,6 +149,7 @@ footer {
     background-image: url(./images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
     margin-bottom: 59px;
+    position: relative;
   }
 
   .header {
@@ -163,6 +164,9 @@ footer {
   .header-button--try {
     max-width: 96px;
     max-height: 24px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.0954201);
+    border-radius: 12px;
+    padding: 4px 22px 6px 23px;
   }
 
   .hero-row {
@@ -176,11 +180,12 @@ footer {
   }
 
   .hero__p {
-      margin-bottom: 32px;
-    }
+    margin-bottom: 32px;
+  }
 
   .hero__pink-button {
     margin-bottom: 56px;
+    padding: 10px 59px 14px 60px;
   }
 
   .hero-col__img {
@@ -188,12 +193,13 @@ footer {
     margin-left: 4px;
     margin-right: 4px;
   }
-
+  /*@@@@@@@@@@@@@@@@@@ middle-sections */
   .middle-sections {
     text-align: center;
     max-width: 335px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 229px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,25 +211,122 @@ footer {
     padding: 24px 39px 0px 40px;
   }
 
+  .section-grow {
+    padding-bottom: 33px;
+  }
+
+  .section-flowing {
+    padding-bottom: 54px;
+  }
+
+  .section-your-users {
+    padding-bottom: 33px;
+  }
+
   .section-flowing,
   .section-grow {
     margin-bottom: 40px;
   }
 
-  .section-ready {
-    max-width: 352px;
-    text-align: center;
+  .middle-sections h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
+  .middle-sections p {
+    max-width: 256px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+
+  .section-col--img {
+    max-width: 256px;
+    max-height: 256px;
+    margin-bottom: 24px;
+  }
+
+  /*@@@@@@@@@@@@@@@ section-ready */
+  main {
+    position: relative;
+    border: 0.1px solid transparent;
+  }
+
+  .section-ready {
+    max-width: 352px;
+    padding: 41px 14px;
+    text-align: center;
+    position: absolute;
+    bottom: -70px;
+    left: 19px;
+  }
+
+  .section-ready h2 {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .section-ready button {
+    padding: 12.5px 49px;
+  }
+
+  /*@@@@@@@@@@@@@@@@@@@@@@ footer */
   footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 150px;
+    padding-right: 21px;
+    padding-left: 17px;
+    padding-bottom: 46px;
   }
 
   .footer__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .dflex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .footer__logo {
+    margin-bottom: 30px;
+  }
+
+  footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 16px;
+  }
+
+  .link {
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .social-media i {
+    width: 32.36px;
+    height: 31px;
+  }
+
+  .copyright {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 11.1304px;
+    line-height: 17px;
   }
 }
 
