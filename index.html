@@ -27,74 +27,76 @@
     <script src="https://kit.fontawesome.com/f165a59b56.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <img src="./images/logo.svg" alt="logo">
-      </div>
-      <button class="try">Try It Free</button>
-    </header>
     <main>
       <!-- hero @@@@@@@@@@@@@@@@@@@@@-->
       <section class="hero">
+        <div class="header">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <button class="header-button--try">Try It Free</button>
+        </div>
         <div class="hero-row">
           <div class="hero-col">
-            <h1>Build The Community Your Fans Will Love</h1>
-            <p>Huddle re-imagines the
+            <h1 class="hero__h1">Build The Community Your Fans Will Love</h1>
+            <p class="hero__p">Huddle re-imagines the
               way we build communities. You have a voice, but so does your audience.
               Create connections with your users as you engage in genuine discussion.</p>
-            <button>Get
+            <button class="hero__pink-button pink-button">Get
               Started For Free</button>
           </div>
-          <div class="hero-col">
+          <div class="hero-col hero-col__img">
             <img src="./images/illustration-mockups.svg" alt="mockups" />
           </div>
         </div>
       </section>
       <!-- section-grow @@@@@@@@@@@@@-->
-      <section class="section-grow">
-        <div class="section-row">
-          <div class="section-col">
-            <h2>Grow Together</h2>
-            <p>Generate meaningful discussions with your
-              audience and build a strong, loyal community. Think of the insightful
-              conversations you miss out on with a feedback form.</p>
+      <div class="middle-sections">
+        <section class="section-grow">
+          <div class="section-row">
+            <div class="section-col">
+              <h2>Grow Together</h2>
+              <p>Generate meaningful discussions with your
+                audience and build a strong, loyal community. Think of the insightful
+                conversations you miss out on with a feedback form.</p>
+            </div>
+            <div class="section-col">
+              <img src="./images/illustration-grow-together.svg" alt="">
+            </div>
           </div>
-          <div class="section-col">
-            <img src="./images/illustration-grow-together.svg" alt="">
+        </section>
+        <!-- section-flowing @@@@@@@@@@@@@-->
+        <section class="section-flowing">
+          <div class="section-row">
+            <div class="section-col">
+              <img src="./images/illustration-flowing-conversation.svg" alt="">
+            </div>
+            <div class="section-col">
+              <h2>Flowing Conversations</h2>
+              <p>You wouldn't paginate a conversation in real life, so why do it online? Our
+                threads have just-in-time loading for a more natural flow.</p>
+            </div>
           </div>
-        </div>
-      </section>
-      <!-- section-flowing @@@@@@@@@@@@@-->
-      <section class="section-flowing">
-        <div class="section-row">
-          <div class="section-col">
-            <img src="./images/illustration-flowing-conversation.svg" alt="">
+        </section>
+        <!-- section-your-users @@@@@@@@@@@@@-->
+        <section class="section-your-users">
+          <div class="section-row">
+            <div class="section-col">
+              <h2>Your Users</h2>
+              <p>It takes no time at all to integrate Huddle with your app's authentication
+                solution. This means, once signed in to your app, your users can start
+                chatting immediately.</p>
+            </div>
+            <div class="section-col">
+              <img src="./images/illustration-your-users.svg" alt="your-users">
+            </div>
           </div>
-          <div class="section-col">
-            <h2>Flowing Conversations</h2>
-            <p>You wouldn't paginate a conversation in real life, so why do it online? Our
-              threads have just-in-time loading for a more natural flow.</p>
-          </div>
-        </div>
-      </section>
-      <!-- section-your-users @@@@@@@@@@@@@-->
-      <section class="section-your-users">
-        <div class="section-row">
-          <div class="section-col">
-            <h2>Your Users</h2>
-            <p>It takes no time at all to integrate Huddle with your app's authentication
-              solution. This means, once signed in to your app, your users can start
-              chatting immediately.</p>
-          </div>
-          <div class="section-col">
-            <img src="./images/illustration-your-users.svg" alt="your-users">
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- section-ready @@@@@@@@@@@@@-->
       <section class="section-ready">
         <h2>Ready To Build Your Community?</h2>
-        <button>Get Started For Free</button>
+        <button class="pink-button">Get Started For Free</button>
       </section>
     </main>
     <footer>
