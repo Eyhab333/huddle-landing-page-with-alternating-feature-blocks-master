@@ -110,11 +110,27 @@ i {
   border-radius: 12px;
 }
 
+.header-button--try:hover {
+  color: var(--Secondary);
+}
+
 .pink-button {
   color: var(--Light);
   background: var(--pink);
   box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
   border-radius: 20px;
+}
+
+.pink-button:hover {
+  background: #FF9ADB;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i:hover {
+  color: #FF52C1;
 }
 
 .section-flowing,
