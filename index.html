@@ -38,27 +38,31 @@
         </div>
         <div class="hero-row">
           <div class="hero-col">
-            <h1 class="hero__h1">Build The Community Your Fans Will Love</h1>
-            <p class="hero__p">Huddle re-imagines the
-              way we build communities. You have a voice, but so does your audience.
-              Create connections with your users as you engage in genuine discussion.</p>
-            <button class="hero__pink-button pink-button">Get
-              Started For Free</button>
+            <div class="hero-col__text">
+              <h1 class="hero__h1">Build The Community Your Fans Will Love</h1>
+              <p class="hero__p">Huddle re-imagines the
+                way we build communities. You have a voice, but so does your audience.
+                Create connections with your users as you engage in genuine discussion.</p>
+              <button class="hero__pink-button pink-button">Get
+                Started For Free</button>
+            </div>
           </div>
-          <div class="hero-col hero-col__img">
-            <img src="./images/illustration-mockups.svg" alt="mockups" />
+          <div class="hero-col">
+            <div class="hero-col__img">
+              <img src="./images/illustration-mockups.svg" alt="mockups" />
+            </div>
           </div>
         </div>
       </section>
-      
+      <!-- middle-sections @@@@@@@@@@@@@@@@@@@@@@@@@-->
       <div class="middle-sections">
         <!-- section-grow @@@@@@@@@@@@@-->
         <section class="section-grow">
-          <div class="section-row">
-            <div class="section-col section-col--img">
+          <div class="section-row section-grow--flex-direction">
+            <div class="section-col--img">
               <img src="./images/illustration-grow-together.svg" alt="">
             </div>
-            <div class="section-col">
+            <div class="section-col__text">
               <h2>Grow Together</h2>
               <p>Generate meaningful discussions with your
                 audience and build a strong, loyal community. Think of the insightful
@@ -69,10 +73,10 @@
         <!-- section-flowing @@@@@@@@@@@@@-->
         <section class="section-flowing">
           <div class="section-row">
-            <div class="section-col section-col--img">
+            <div class="section-col--img">
               <img src="./images/illustration-flowing-conversation.svg" alt="">
             </div>
-            <div class="section-col">
+            <div class="section-col__text">
               <h2>Flowing Conversations</h2>
               <p>You wouldn't paginate a conversation in real life, so why do it online? Our
                 threads have just-in-time loading for a more natural flow.</p>
@@ -81,11 +85,11 @@
         </section>
         <!-- section-your-users @@@@@@@@@@@@@-->
         <section class="section-your-users">
-          <div class="section-row">
-            <div class="section-col  section-col--img">
+          <div class="section-row section-your-users--flex-direction">
+            <div class="section-col--img">
               <img src="./images/illustration-your-users.svg" alt="your-users">
             </div>
-            <div class="section-col">
+            <div class="section-col__text">
               <h2>Your Users</h2>
               <p>It takes no time at all to integrate Huddle with your app's authentication
                 solution. This means, once signed in to your app, your users can start
@@ -100,70 +104,73 @@
         <button class="pink-button">Get Started For Free</button>
       </section>
     </main>
+    <!-- footer @@@@@@@@@@@@@@@@@@@@@@@-->
     <footer>
       <div class="footer__container">
-        <div class="footer__left-col">
-          <div class="footer__logo">
-            <img src="./images/logo.svg" alt="logo" />
-          </div>
-          <div>
-            <div class="dflex">
-              <div>
-                <img src="./images/icon-location.svg" alt="location">
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua</p>
-            </div>
-          </div>
-          <div>
-            <div class="dflex">
-              <div>
-                <img src="./images/icon-phone.svg" alt="phone">
-              </div>
-              <p>+1-543-123-4567</p>
-            </div>
-          </div>
-          <div>
-            <div class="dflex">
-              <div>
-                <img src="./images/icon-email.svg" alt="email">
-              </div>
-              <p>example@huddle.com</p>
-            </div>
-          </div>
+        <div class="footer__logo">
+          <img src="./images/light-logo.svg" alt="logo" />
         </div>
-        <div>
-          <ul class="footer__links-col">
-            <div class="link">
-              <a href="#">About Us</a>
+        <div class="footer__second-container">
+          <div class="footer__left-col">
+            <div class="row-one">
+              <div class="dflex">
+                <div class="dflex__img">
+                  <img src="./images/icon-location.svg" alt="location">
+                </div>
+                <p class="dflex__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua</p>
+              </div>
             </div>
-            <div class="link">
-              <a href="#">What We Do</a>
+            <div class="row-two">
+              <div class="dflex">
+                <div class="dflex__img">
+                  <img src="./images/icon-phone.svg" alt="phone">
+                </div>
+                <p class="dflex__p">+1-543-123-4567</p>
+              </div>
             </div>
-            <div class="link">
-              <a href="#">FAQ</a>
+            <div class="row-three">
+              <div class="dflex">
+                <div class="dflex__img">
+                  <img src="./images/icon-email.svg" alt="email">
+                </div>
+                <p class="dflex__p">example@huddle.com</p>
+              </div>
             </div>
-            <div class="link">
-              <a href="#">Career</a>
-            </div>
-            <div class="link">
-              <a href="#">Blog</a>
-            </div>
-            <div class="link">
-              <a href="#">Contact Us </a>
-            </div>
-          </ul>
-        </div>
-        <div class="footer__right-col">
-          <div class="social-media">
-            <div><i class="fa-brands fa-facebook-f"></i></div>
-            <div><i class="fa-brands fa-twitter"></i></div>
-            <div><i class="fa-brands fa-instagram"></i></div>
           </div>
-
-          <p class="copyright">
-            &copy; Copyright 2018 Huddle. All rights reserved.
-          </p>
+          <div>
+            <ul class="footer__links-col">
+              <li class="link">
+                <a href="#">About Us</a>
+              </li>
+              <li class="link">
+                <a href="#">Career</a>
+              </li>
+              <li class="link">
+                <a href="#">What We Do</a>
+              </li>
+              <li class="link">
+                <a href="#">Blog</a>
+              </li>
+              <li class="link">
+                <a href="#">FAQ</a>
+              </li>
+              <li class="link">
+                <a href="#">Contact Us </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right-col">
+            <div class="social-media">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          
+            <p class="copyright">
+              &copy; Copyright 2018 Huddle. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
